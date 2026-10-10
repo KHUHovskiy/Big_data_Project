@@ -1,0 +1,26 @@
+# Данные — не коммитим
+dataset/
+dataset_prepared/
+export/
+hdfs/
+metastore-postgresql/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
