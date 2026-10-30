@@ -24,3 +24,7 @@ Thumbs.db
 
 # Логи
 *.log
+init_data/*.tsv
+init_data/*.csv
+data.tsv
+load.sql
