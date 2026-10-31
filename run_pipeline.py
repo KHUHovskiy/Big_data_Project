@@ -6,8 +6,8 @@ def run_cmd(cmd):
     print(f"Выполняю: {cmd}")
     subprocess.run(cmd, shell=True)
 
-print("1. Ждем, пока контейнеры поднимутся...")
-time.sleep(30)
+# print("1. Ждем, пока контейнеры поднимутся...")
+# time.sleep(30)
 
 print("2. Загружаем данные в HDFS...")
 run_cmd('docker exec datanode hdfs dfs -mkdir -p /user/hive/warehouse/music.db/tracks /user/hive/warehouse/music.db/artists')
